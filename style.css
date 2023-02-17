@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Russo+One&display=swap');*/
 
 html{
   box-sizing: border-box;
@@ -9,7 +9,7 @@ body{
   font-family: 'Pacifico', cursive;
   font-family: 'Permanent Marker', cursive;
   font-family: 'Russo One', sans-serif;
-  background-color: floralwhite;
+  background: whitesmoke;
 }
 
 h1 {
@@ -34,4 +34,23 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
 }
